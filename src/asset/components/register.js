@@ -65,12 +65,6 @@ class Register extends Component{
             pass: this.state.pass,
         };
 
-        axios.post('https://github.com/FikriSulthoni/backend/blob/master/user/create.php', obj)
-            .then(res=> console.log(res.data))
-            .catch(err => {
-                console.log(err.response)
-            });
-
         this.setState({
             name: '',
             email:'',
