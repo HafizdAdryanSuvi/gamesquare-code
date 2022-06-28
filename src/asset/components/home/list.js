@@ -1,11 +1,11 @@
 import React from "react";
-import {Card, CardGroup, Carousel, Col, Container, Row} from "react-bootstrap";
-import dying from "../image/dying_light_2.jpg";
-import elden from "../image/elden_ring.jpg";
-import mh from "../image/mh_rise.jpg";
-import rdr from "../image/rdr2.jpg";
-import terra from "../image/terra.png";
-import witch from "../image/thewitcher3.jpg"
+import {Card, Col, Container, Row} from "react-bootstrap";
+import dying from "../../image/dying_light_2.jpg";
+import elden from "../../image/elden_ring.jpg";
+import mh from "../../image/mh_rise.jpg";
+import rdr from "../../image/rdr2.jpg";
+import terra from "../../image/terra.png";
+import witch from "../../image/thewitcher3.jpg"
 
 
 const List=()=> {

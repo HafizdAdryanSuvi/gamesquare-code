@@ -1,9 +1,9 @@
 import React from "react";
 import {Card, CardGroup, Col, Container, Row} from "react-bootstrap";
-import dota from "../image/dota.png";
-import phasmo from "../image/phasmo.png";
-import heat from "../image/heat.jpg";
-import skyrim from "../image/skyrim.jpg";
+import dota from "../../image/dota.png";
+import phasmo from "../../image/phasmo.png";
+import heat from "../../image/heat.jpg";
+import skyrim from "../../image/skyrim.jpg";
 
 const Ourpick=()=> {
     return (

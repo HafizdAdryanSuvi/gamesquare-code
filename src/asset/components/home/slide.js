@@ -1,8 +1,8 @@
 import React from "react";
 import {Carousel} from "react-bootstrap";
-import valo from "../image/valorant.png";
-import odes from "../image/odyssey.png";
-import apex from "../image/apex.png";
+import valo from "../../image/valorant.png";
+import odes from "../../image/odyssey.png";
+import apex from "../../image/apex.png";
 
 
 const Slide=()=> {

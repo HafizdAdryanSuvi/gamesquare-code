@@ -1,8 +1,8 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import {Col, Container, Dropdown, Row} from "react-bootstrap";
 import ig from "../icon/instagram.png";
 import fb from "../icon/facebook.png";
-import wa from "../icon/whatsapp.png";
+import gh from "../icon/github.png";
 import dc from "../icon/discord.png";
 
 const Contact=()=> {
@@ -15,12 +15,53 @@ const Contact=()=> {
                         <div className="me-5 d-none d-lg-block">
                             <span>Contact us on social networks:</span>
                         </div>
-
                         <div>
-                            <img src={ig} className="m-2"/>
-                            <img src={fb} className="m-2"/>
-                            <img src={wa} className="m-2"/>
-                            <img src={dc} className="m-2"/>
+                            <Row>
+                                <Col>
+                                    <Dropdown variant="danger">
+                                        <Dropdown.Toggle variant="danger" type="button">
+                                            <img src={ig}/>
+                                        </Dropdown.Toggle>
+                                        <Dropdown.Menu>
+                                                <Dropdown.Item href="https://www.instagram.com/hfzd.a/" id="contact">Hafizd Adryan Suvi</Dropdown.Item>
+                                                <Dropdown.Item href="https://www.instagram.com/fiikrisultony_/" id="contact">M. Fikri Sulthoni</Dropdown.Item>
+                                        </Dropdown.Menu>
+                                    </Dropdown>
+                                </Col>
+                                <Col>
+                                    <Dropdown variant="danger">
+                                        <Dropdown.Toggle variant="danger" type="button">
+                                            <img src={fb}/>
+                                        </Dropdown.Toggle>
+                                        <Dropdown.Menu>
+                                            <Dropdown.Item href="https://www.facebook.com/profile.php?id=100015075125677" id="contact">Hafizd Adryan Suvi</Dropdown.Item>
+                                            <Dropdown.Item href="https://www.facebook.com/fikri.sulthony.9" id="contact">M. Fikri Sulthoni</Dropdown.Item>
+                                        </Dropdown.Menu>
+                                    </Dropdown>
+                                </Col>
+                                <Col>
+                                    <Dropdown variant="danger">
+                                        <Dropdown.Toggle variant="danger" type="button">
+                                            <img src={gh}/>
+                                        </Dropdown.Toggle>
+                                        <Dropdown.Menu>
+                                            <Dropdown.Item href="https://github.com/HafizdAdryanSuvi">Hafizd Adryan Suvi</Dropdown.Item>
+                                            <Dropdown.Item href="https://github.com/FikriSulthoni">M. Fikri Sulthoni</Dropdown.Item>
+                                        </Dropdown.Menu>
+                                    </Dropdown>
+                                </Col>
+                                <Col>
+                                    <Dropdown variant="danger">
+                                        <Dropdown.Toggle variant="danger" type="button">
+                                            <img src={dc}/>
+                                        </Dropdown.Toggle>
+                                        <Dropdown.Menu>
+                                            <Dropdown.Item>Hafizd Adryan Suvi</Dropdown.Item>
+                                            <Dropdown.Item>M. Fikri Sulthoni</Dropdown.Item>
+                                        </Dropdown.Menu>
+                                    </Dropdown>
+                                </Col>
+                            </Row>
                         </div>
                     </section>
                     <center>

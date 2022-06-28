@@ -1,9 +1,9 @@
 import React from "react";
-import {Card, CardGroup, Col, Container, Row} from "react-bootstrap";
-import lol from "../image/lol.png";
-import gta from "../image/gta5.jpg";
-import mine from "../image/minecraft.png";
-import csgo from "../image/csgo.jpg";
+import {Card, Col, Row} from "react-bootstrap";
+import lol from "../../image/lol.png";
+import gta from "../../image/gta5.jpg";
+import mine from "../../image/minecraft.png";
+import csgo from "../../image/csgo.jpg";
 import {Link} from "react-router-dom";
 
 const Popular=()=> {
